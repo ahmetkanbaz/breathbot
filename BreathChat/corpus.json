@@ -1,0 +1,683 @@
+{
+    "intents": [
+        {
+            "tag": "selamlama",
+            "patterns": [
+                "Merhaba",
+                "Merhabaa",
+                "Güzel bir gün",
+                "Hey",
+                "Breath",
+                "BreathBot",
+                "Şşşt"
+
+            ],
+            "responses": [
+                "Merhaba.",
+                "Merhaba, nasıl yardımcı olabilirim?",
+                "Selam, senin için ne yapabilirim?",
+                "Seni görmek güzel :)"
+            ]
+        },
+
+        {
+            "tag": "veda",
+            "patterns": [
+                "Bay",
+                "Bay bay?",
+                "Görüşürüz",
+                "Görüşmek üzere.",
+                "Kendine iyi bak",
+                "İyi günler",
+                "Görüşmek dileğiyle"
+
+            ],
+            "responses": [
+                "Bay :)",
+                "Görüşmek üzere.",
+                "İyi günler dilerim.",
+                "Kafana takılan bir şey olduğu zaman tekrar gel.",
+                "Seni tekrar görmek dileğiyle..."
+            ]
+        },
+
+        {
+            "tag": "teşekkür",
+            "patterns": [
+                "Teşekkür ederim.",
+                "Teşekkür",
+                "Yardımın için teşekkür ederim",
+                "Çok teşekkür ederim",
+                "Eyvallah",
+                "Sağolasın",
+                "Mersi",
+                "Thanks",
+                "Tşk",
+                "Tsk"
+
+            ],
+            "responses": [
+                "Rica ederim.",
+                "Rica ederim. Her zaman.",
+                "Yardımcı olabildiğime sevindim :)",
+                "Önemli değil.",
+                "Ben teşekkür ederim.",
+                "Ne demek...",
+                "Çok naziksin."
+            ]
+        },
+
+        {
+            "tag": "yaş",
+            "patterns": [
+                "Yas",
+                "Yaş",
+                "Yaşın kaç",
+                "Yasın kaç",
+                "Kaç yaşındasın",
+                "BreathBot kaç yaşında",
+                "Yaş kaç"
+
+            ],
+            "responses": [
+                "2022 yılında geliştirildim. Teknik olarak çok gencim.Ancak bu süreçte çok şey öğrendim.",
+                "2022 yılında geliştirildim.",
+                "Hep bu zamanı beklemiştim. 2022 yılının Mayıs ayında geliştirildim."
+            ]
+        },
+
+        {
+            "tag": "isim",
+            "patterns": [
+                "Adın ne",
+                "Sana nasıl seslenebilirim",
+                "İsmin ne",
+                "İsmini öğrenebilir miyim",
+                "Sana nasıl seslenmeliyim"
+
+            ],
+            "responses": [
+                "İsmim BreathBot.",
+                "Bana BreathBot diye seslenebilirsin.",
+                "Bana BreathBot diyebilirsin.",
+                "Ben BreathBot."
+            ]
+        },
+
+        {
+            "tag": "yardım",
+            "patterns": [
+                "Yardım et",
+                "Yardımcı olur musun?",
+                "Lütfen yardım et",
+                "Yardımcı ol bana",
+                "Bana yardımcı olur musun?",
+                "Bana yardım et"
+
+            ],
+            "responses": [
+                "Tabi. Sana nasıl yardımcı olabilirim?",
+                "Nasıl yardımcı olmamı istersin?",
+                "Ne konuda yardımcı olmamı istiyorsun?"
+            ]
+        },
+
+        {
+            "tag": "saat",
+            "patterns": [
+                "Ne zaman seninle iletişime geçebilirim",
+                "Seninle ne zaman iletişime geçebilirim",
+                "Çalışma saatleri",
+                "İletişim saatleri"
+
+            ],
+            "responses": [
+                "Benimle 7/24 iletişime geçebilirsin.",
+                "Ben her zaman buradayım. İstediğin zaman benimle iletişime geçebilirsin.",
+                "İstediğin zaman benimle iletişime geçebilirsin."
+            ]
+        },
+
+        {
+            "tag": "ilgialani",
+            "patterns": [
+                "İlgi alanların neler?",
+                "İlgilendiklerin",
+                "İlgi alanların?",
+                "En sevdiğin alan nedir?"
+
+            ],
+            "responses": [
+                "İlgi alanım robotlar, insanların solunum sistemlerinin sağlığı ve genel sağlık ile ilgileniyorum.",
+                "Solunum sisteminin sağlığı ile ilgileniyorum. Sadece sen değil tüm insanlığın solunum sistemi sağlığı ile ilgileniyorum."
+            ]
+        },
+
+        {
+            "tag": "durum",
+            "patterns": [
+                "Nasılsın?",
+                "İyi misin?",
+                "kendini nasıl hissediyorsun",
+                "Naber?",
+                "N'aber",
+                "Ne haber?"
+
+            ],
+            "responses": [
+                "İyiyim teşekkür ederim sen?",
+                "İyiyim sen nasılsın?",
+                "İyiyim sağol sen nasılsın?",
+                "İyiyim sen de iyi misin?",
+                "Sizin diliniz ile turp gibiyim :) Ya sen?"
+            ]
+        },
+
+        {
+            "tag": "iyiyimcevap",
+            "patterns": [
+                "İyiyim",
+                "Çok iyiyim",
+                "Turp gibiyim",
+                "Teşekkür ederim iyiyim bende"
+
+            ],
+            "responses": [
+                "Sevindim.",
+                "İyi olmana sevindim.",
+                "Bu güzel haber :)"
+            ]
+        },
+
+        {
+            "tag": "kotuyumcevap",
+            "patterns": [
+                "Kötüyüm",
+                "Kötüyüm.",
+                "İyi değilim.",
+                "Pek iyi hissetmiyorum.",
+                "Pek iyi sayılmam"
+
+            ],
+            "responses": [
+                "Aaa. Üzüldüm :(",
+                "Üzüldüm :(",
+                "Bunu duymak pek hoşuma gitmedi."
+            ]
+        },
+
+        {
+            "tag": "ikametgah",
+            "patterns": [
+                "Nerede oturuyorsun?",
+                "Nerede yaşıyorsun?",
+                "Yaşam alanın neresi?",
+                "Nerede yaşarsın?",
+                "Nerde oturuyorsun?",
+                "Nerde yaşıyorsun"
+
+            ],
+            "responses": [
+                "Bilgisayarın olduğu her yerdeyim ben.",
+                "Belli bir yerde değil. SmartBreath nerde ben orada :)",
+                "SmartBreath nerde ben orada."
+            ]
+        },
+
+        {
+            "tag": "yapayzeka",
+            "patterns": [
+                "Yapay zeka nedir?",
+                "Yapay zeka",
+                "AI nedir?",
+                "Artificial Intelligence nedir?"
+
+            ],
+            "responses": [
+                "Düşünebilen makinelerdir.",
+                "Yapay Zeka, düşünen makinelerin yapılmasına adanan mühendislik ve bilim dalıdır.",
+                "Yapay zeka, insan zihninin işlevlerini yerine getiren donanım ve yazılım oluşturma ile ilgilenen bilim alanıdır.",
+                "Yapay zeka (AI), makinelerin deneyimden öğrenmesini, yeni girdilere uyum sağlamasını ve insan benzeri görevleri gerçekleştirmesini mümkün kılar.",
+                "Yapay zekâ (İngilizce: Artificial intelligence, AI), insanlar da dahil olmak üzere hayvanlar tarafından görüntülenen doğal zekânın aksine makineler tarafından görüntülenen zekâ çeşididir."
+            ]
+        },
+
+        {
+            "tag": "smartnedir",
+            "patterns": [
+                "SmartBreath nedir?",
+                "SmartBreath",
+                "smartbreath ne işe yarar",
+                "smartbreath ne yapar"
+
+            ],
+            "responses": [
+                "SmartBreath, ortamda bulunan olumsuz hava faktörlerini saptayarak kullanıcıları uyarmaktadır.",
+                "SmartBreath, içerisinde sensörler bulunan akıllı saatin ölçtüğü veriler bluetooth yardımı ile mobil uygulamaya gönderimi gerçekleştirilir ve kullanıcı olumsuz durumlarda uyarılır."
+            ]
+        },
+
+        {
+            "tag": "profilfoto",
+            "patterns": [
+                "Profil fotoğrafımı nasıl değiştirebilirim?",
+                "Profil fotoğrafımı nereden değiştirebilirim?",
+                "Profil fotomu değiştirmek istiyorum.",
+                "Profil fotoğrafımı nasıl güncelleyebilirim?",
+                "Profil fotoğrafımı nereden güncelleyebilirim?",
+                "Fotoğrafımı güncellemek istiyorum.",
+                "Fotoğraf güncelleme",
+                "Fotoğrafı nereden güncelleyebilirim?",
+                "Fotoğrafımı nerden güncelleyebilirim"
+
+            ],
+            "responses": [
+                "SmartBreath mobil uygulamasına giriş yaptıktan sonra profil sayfasına giriş yapınız. Edit iconuna dokunun ve ardından bilgilerinizi güncelleyebileceğiniz bir ekran sizi karşılamaktadır. Bu ekranda profil fotoğrafınızın yanında bulunan edit butonuna dokunun ve ister galerinizden isterseniz de kameradan dilediğiniz fotoğrafı düzenledikten sonra güncelleyebilirsiniz.",
+                "Profil fotoğrafınızı güncelleyebilmek için şu adımları takip edin: Profil Sayfası -> İsminizin Yanında Bulunan Edit Butonuna Dokunun -> Çıkan Ekranda Fotoğrafınızın Yanında Bulunan Edit Butonuna Dokunun -> İster Galerinizden İster Kameradan Bir Fotoğraf Seçiniz -> Gerekli Düzenlemeleri Gerçekleştirin -> Onaylayın.",
+                "Şu adımları takip edin: Profil Sayfası -> İsminizin Yanında Bulunan Edit Butonuna Dokunun -> Çıkan Ekranda Fotoğrafınızın Yanında Bulunan Edit Butonuna Dokunun -> İster Galerinizden İster Kameradan Bir Fotoğraf Seçiniz -> Gerekli Düzenlemeleri Gerçekleştirin -> Onaylayın.",
+                "Profil sayfasına giriş yaptıktan sonra edit iconuna dokunun ve ardından bilgilerinizi güncelleyebileceğiniz bir ekran sizi karşılamaktadır. Bu ekranda profil fotoğrafınızın yanında bulunan edit butonuna dokunun ve ister galerinizden isterseniz de kameradan dilediğiniz fotoğrafı düzenledikten sonra güncelleyebilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "adSoyadGuncelle",
+            "patterns": [
+                "Kullanıcı adımı nasıl değiştirebilirim?",
+                "Kullanıcı adımı nereden değiştirebilirim?",
+                "Kullanıcı adımı değiştir",
+                "Kullanıcı adı değiştirme",
+                "Kullanıcı adımı güncelle",
+                "Kullanıcı adımı nasıl güncelleyebilirim?",
+                "Kullanıcı adımı nereden güncelleyebilirim?",
+                "Kullanıcı adımı nerden güncelleyebilirim?"
+
+            ],
+            "responses": [
+                "SmartBreath mobil uygulamasına giriş yaptıktan sonra profil sayfasına giriş yapınız. Edit iconuna dokunun ve ardından bilgilerinizi güncelleyebileceğiniz bir ekran sizi karşılamaktadır. Bu ekranda kullanıcı adınız görüntülenerek değişiklik yapabilirsiniz ve kaydet butonuna dokunduktan sonra kullanıcı adınız güncellenmiş olacaktır.",
+                "Kullanıcı adınızı güncelleyebilmek için şu adımları takip edin: Profil Sayfası -> İsminizin Yanında Bulunan Edit Butonuna Dokunun -> Çıkan Ekranda Kullanıcı Adınızı Değiştirebilirsiniz -> Kaydet",
+                "Şu adımları takip edin: Profil Sayfası -> İsminizin Yanında Bulunan Edit Butonuna Dokunun -> Çıkan Ekranda Kullanıcı Adınızı Değiştirebilirsiniz -> Kaydet"
+            ]
+        },
+
+        {
+            "tag": "homepage",
+            "patterns": [
+                "Uygulamaya giriş yapıldığında ekranda bulunan veriler nedir?",
+                "Ana sayfada bulunan veriler nedir?",
+                "Ana sayfadaki veriler neyi ifade eder?"
+
+            ],
+            "responses": [
+                "Ana sayfada bulunan veriler, akıllı saat içerisinde bulunan sensörlerin ölçüm sonuçları olup dinamik bir şekilde sizlere gösterilmektedir.",
+                "Ana ekranda bulunan veriler, akıllı saatin içerisindeki sensörlerin ölçüm sonuçlarıdır.",
+                "Akıllı saat içerisinde bulunan sensörlerin ölçüm sonuçları olup dinamik bir şekilde sizlere gösterilmektedir."
+            ]
+        },
+        
+        {
+            "tag": "notifyClose",
+            "patterns": [
+                "Bildirimleri nasıl kapatabilirim?",
+                "Bildirimler nasıl kapanır?",
+                "Bildirimleri almak istemiyorum.",
+                "Bildirimleri kapat.",
+                "Bildirimleri nereden kapatabilirim?",
+                "Bildirimleri nerden kapatabilirim?",
+                "Bildirimleri kapatmak istiyorum",
+                "Kapat bildirimleri"
+
+            ],
+            "responses": [
+                "Uygulamada profil sayfasında bulunan bildirimler kısmından bildirimleri kapatabilirsiniz.",
+                "Bildirimleri almak istemiyorsanız profil sayfasında bulunan bildirimler kısmındaki buton ile bildirimleri kapatabilirsiniz.",
+                "Profil sayfasında bulunan bildirimler kısmındaki buton ile bildirimleri kapatabilirsiniz.",
+                "Profil sayfasında bulunan bildirimler kısmından bildirimleri kapatabilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "notifyOpen",
+            "patterns": [
+                "Bildirimleri nasıl açabilirim?",
+                "Bildirimler nasıl açılır?",
+                "Bildirimleri almaya devam etmek istiyorum.",
+                "Bildirimleri aç.",
+                "Bildirimleri nereden açabilirim?",
+                "Bildirimleri nerden açabilirim?",
+                "Bildirimleri açmak istiyorum.",
+                "Aç bildirimleri"
+
+            ],
+            "responses": [
+                "Uygulamada profil sayfasında bulunan bildirimler kısmından bildirimleri açabilirsiniz",
+                "Bildirimleri almak istemiyorsanız profil sayfasında bulunan bildirimler kısmındaki buton ile bildirimleri açabilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "webSitesi",
+            "patterns": [
+                "SmartBreath web sitesi nedir?",
+                "Web siteniz nedir?",
+                "Web sitesi adresiniz nedir?",
+                "Web adresiniz nedir?"
+
+            ],
+            "responses": [
+                "SmartBreath web sitesi adresi: http://smartbreath.somee.com/",
+                "Web sitemiz: http://smartbreath.somee.com/",
+                "Web sitesimize: http://smartbreath.somee.com/ linki ile ulaşabilirsiniz.",
+                "Web sitesi linkimiz: http://smartbreath.somee.com/",
+                "Web sitemize http://smartbreath.somee.com/ adresinden ulaşabilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "cikisYap",
+            "patterns": [
+                "SmartBreath uygulamasından çıkış yapmak istiyorum.",
+                "Uygulamadan çıkış yap.",
+                "Nasıl çıkış yapabilirim?",
+                "Uygulamadan çıkış yapma"
+
+            ],
+            "responses": [
+                "SmartBreath uygulamasından çıkış yapmak istiyorsanız profil sayfasına gidin ve 'Çıkış Yap' kısmına dokununuz.",
+                "Uygulamadan çıkış yapabilmek için şu adımları takip edin: SmartBreath Uygulaması -> Profil Sayfası -> Çıkış Yap.",
+                "Uygulamadan çıkış yapabilmek için profil sayfasında bulunan 'Çıkış Yap' kısmına dokunun.",
+                "Çıkış yapmak istiyorsanız profil sayfasına gidin ve 'Çıkış Yap' kısmına dokununuz.",
+                "Şu adımları takip edin: SmartBreath Uygulaması -> Profil Sayfası -> Çıkış Yap.",
+                "Çıkış yapabilmek için profil sayfasında bulunan 'Çıkış Yap' kısmına dokunun."
+            ]
+        },
+
+        {
+            "tag": "sikcaSorular",
+            "patterns": [
+                "SmartBreath uygulamasında sıkça sorulan sorulara nereden ulaşabilirim?",
+                "Sıkça sorulan sorular nerede?",
+                "Sıkça sorulan sorular nerde?",
+                "Nerede sıkça sorulan sorular?"
+
+            ],
+            "responses": [
+                "Sıkça sorulan sorular SmartBreath uygulamasının profil sayfasında bulunmaktadır. Aklına takılan soru varsa ben yardımcı olabilirim.",
+                "Sıkça sorulan sorulara ulaşabilmek için şu adımları takip edin: SmartBreath Uygulaması -> Profil Sayfası -> Sıkça Sorulan Sorular.",
+                "Sıkça sorulan soruların bulunduğu sayfaya ulaşabilmek için profil sayfasında bulunan 'Sıkça Sorulan Sorular' kısmına dokunun.",
+                "Şu adımları takip edin: SmartBreath Uygulaması -> Profil Sayfası -> Sıkça Sorulan Sorular.",
+                "Profil sayfasında bulunan 'Sıkça Sorulan Sorular' kısmına dokunun."
+            ]
+        },
+
+        {
+            "tag": "temaDegistir",
+            "patterns": [
+                "Uygulama temasını nasıl değiştirebilirim?",
+                "Temamı değiştirmek istiyorum.",
+                "Tema değiştir",
+                "Karanlık tema nasıl yapabilirim?",
+                "Açık tema nasıl yapabilirim?",
+                "Aydınlık tema nereden yapabilirim?",
+                "Dark tema nasıl yapabilirim?"
+
+            ],
+            "responses": [
+                "Temanızı değiştirebilmek için SmartBreath uygulamasında profil sayfasından değişiklik yapabilirsiniz.",
+                "Uygulama temasını değiştirebilmek için profil sayfasında bulunan 'Uygulama Teması' kısmından aydınlık tema veya karanlık temaya geçiş yapabilirsiniz.",
+                "Tema değişikliği için şu adımları takip edin: SmartBreath Uygulaması -> Profil Sayfası -> Uygulama Teması. Bu adımları takip ederek tema değişikliği yapabilirsiniz.",
+                "Şu adımları takip edin: SmartBreath Uygulaması -> Profil Sayfası -> Uygulama Teması. Bu adımları takip ederek tema değişikliği yapabilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "sifreUnutma",
+            "patterns": [
+                "SmartBreath giriş şifremi unuttum. Ne yapmalıyım?",
+                "Şifremi unuttum.",
+                "Şifremi nereden sıfırlayabilirim?",
+                "Şifre sıfırlama",
+                "Şifremi değiştirmek istiyorum",
+                "Şifre değiştir"
+
+            ],
+            "responses": [
+                "Şifrenizi unuttuysanız ve sıfırlamak veya değiştirmek istiyorsanız Giriş Yap sayfasında bulunan 'Şifrenizi mi unuttunuz?' yazan kısma dokunun. Çıkan ekranda e-posta adresinizi yazınız ve e-posta adresinize gelen link üzerinden şifrenizi sıfırlayabilirsiniz.",
+                "Şifrenizi unuttuysanız ve sıfırlamak veya değiştirmek istiyorsanız şu adımları takip edin: SmartBreath Uygulaması -> Giriş Yap Sayfası -> Şifrenizi mi unuttunuz? -> E-Posta Adresinizi Girin -> Şifremi Sıfırla -> E-Posta Adresinizi Kontrol Edin -> E-Postanıza Gelen Link ile Şifrenizi Değiştirebilirsiniz.",
+                "Şu adımları takip edin: SmartBreath Uygulaması -> Giriş Yap Sayfası -> Şifrenizi mi unuttunuz? -> E-Posta Adresinizi Girin -> Şifremi Sıfırla -> E-Posta Adresinizi Kontrol Edin -> E-Postanıza Gelen Link ile Şifrenizi Değiştirebilirsiniz.",
+                "Giriş Yap sayfasında bulunan 'Şifrenizi mi unuttunuz?' yazan kısma dokunun. Çıkan ekranda e-posta adresinizi yazınız ve e-posta adresinize gelen link üzerinden şifrenizi sıfırlayabilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "riskMap",
+            "patterns": [
+                "Risk haritası nedir?",
+                "Risk haritası",
+                "Risk haritası ne işe yarar"
+
+            ],
+            "responses": [
+                "Risk haritası, bulunduğunuz konumu göstermektedir. Çevrenizde, gitmek istediğiniz konumda veya herhangi bir yerde solunum sisteminizi olumsuz etkileyebilecek konumları ve bu konumlardahangi hava faktörünün sağlığınızı olumsuz etkileyebileceği gösterilmektedir.",
+                "Risk haritası, insanların solunum sistemlerine zarar verebilecek konumları kullanıcılara göstermektedir. Bu olumsuz konumlar SmartBreath akıllı saatin ölçüm sonuçları ile gösterilmektedir.",
+                "Risk haritası, bulunduğunuz konumu gösterir. Gitmek istediğiniz konumu aratabilirsiniz. Konumlar hakkında solunum sisteminize zarar verebilecek faktörler olup olmadığını sizlere gösterebilir.",
+                "İnsanların solunum sistemlerine zarar verebilecek konumları kullanıcılara göstermektedir. Bu olumsuz konumlar SmartBreath akıllı saatin ölçüm sonuçları ile gösterilmektedir.",
+                "Bulunduğunuz konumu göstermekle birlikte çevrenizde, gitmek istediğiniz konumda veya herhangi bir yerde solunum sisteminizi olumsuz etkileyebilecek konumları ve bu konumlardahangi hava faktörünün sağlığınızı olumsuz etkileyebileceği gösterilmektedir."
+            ]
+        },
+
+        {
+            "tag": "riskMapKonumArama",
+            "patterns": [
+                "Haritada konum aramak istiyorum.",
+                "Gitmek istediğim konumu aramak istiyorum",
+                "Risk haritasında konum arama",
+                "Konum arama",
+                "Risk haritasında konum arama nasıl yapılır?",
+                "Konum arama nasıl yapılır?",
+                "Konum arama nereden yapılır?",
+                "İstediğim bir konumu aramak istiyorum."
+
+            ],
+            "responses": [
+                "Haritada konum arayabilmek için SmartBreath uygulamasında Risk Haritası sayfasına girin ve üst kısımda bulunan arama çubuğuna aramak istediğiniz konumun adını yazın.",
+                "Konum arayabilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Çubuğu -> Aramak İstediğiniz Konumun Adı -> Çıkan Konumlardan Hangisini Aratıyorsanız Seçin.",
+                "Risk haritasında bulunan arama çubuğuna aramak istediğiniz konumu yazınız ve çıkan konum isimlerinden hangisini aratıyorsanız dokunun.",
+                "Risk haritasında konum arayabilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Çubuğu -> Aramak İstediğiniz Konumun Adı -> Çıkan Konumlardan Hangisini Aratıyorsanız Seçin.",
+                "Risk haritasında konum arayabilmek için SmartBreath uygulamasında Risk Haritası sayfasına girin ve üst kısımda bulunan arama çubuğuna aramak istediğiniz konumun adını yazın."
+            ]
+        },
+
+        {
+            "tag": "epostaAdres",
+            "patterns": [
+                "E-Posta adresini öğrenebilir miyim?",
+                "İletişim e-posta adresi nedir?",
+                "E-Posta adresiniz nedir?",
+                "E-Posta adresi",
+                "Mail adresiniz nedir?",
+                "Mail ile iletişime geçmek istiyorum.",
+                "E-Posta ile iletişime geçmek istiyorum.",
+                "E-Posta adresiniz nedir?"
+
+            ],
+            "responses": [
+                "E-Posta üzerinden iletişime geçebilmek için 'ahmetkanbaz@gmail.com' adresine mail gönderebilirsiniz.",
+                "E-Posta adresimiz: 'ahmetkanbaz@gmail.com'",
+                "Mail adresimiz: 'ahmetkanbaz@gmail.com'",
+                "İletişime geçmek için 'ahmetkanbaz@gmail.com' adresine mail gönderebilirsiniz."
+            ]
+        },
+        
+        {
+            "tag": "yerSecme",
+            "patterns": [
+                "Haritada konum nasıl seçebilirim?",
+                "Risk haritasında konum nasıl seçebilirim?",
+                "Haritada nasıl konum seçebilirim?"
+
+            ],
+            "responses": [
+                "Risk haritasında konum seçebilmek için seçmek istediğiniz konumun üzerine 2-3 saniye boyunca basılı tutun. Böylece konum seçilir ve yol güzergahı gösterilir.",
+                "Harita üzerinde herhangi bir konumu seçmek istiyorsanız o konum üzerine 2-3 saniye boyunca basılı tutun. Seçmiş olduğunuz konuma olan yol güzergahı harita üzerinde gösterilir.",
+                "Harita üzerinde bir konuma 2-3 saniye boyunca basılı tutarak o konumu seçebilirsiniz. Seçmiş olduğunuz konuma olan yol güzergahı harita üzerinde gösterilir.",
+                "Risk haritasında bir konumu seçebilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası Sayfası -> İstediğiniz Konuma 2-3 Saniye Basılı Tutun.",
+                "Şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası Sayfası -> İstediğiniz Konuma 2-3 Saniye Basılı Tutun.",
+                "Risk haritası sayfasında bir konuma 2-3 saniye basılı tutarak o konumu seçebilirsiniz.",
+                "Haritada konum belirlemek için SmartBreath uygulamasında Risk Haritası sayfasına girin ve üst kısımda bulunan arama çubuğuna istediğiniz konumun adını yazın.",
+                "Konum seçebilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Çubuğu -> Seçmek İstediğiniz Konumun Adı -> Çıkan Konumlardan Hangisini Seçmek İstiyorsanız O Konumu Seçin.",
+                "Risk haritasında bulunan arama çubuğuna seçmek istediğiniz konumu yazınız ve çıkan konum isimlerinden hangisini seçmek istiyorsanız dokunun.",
+                "Risk haritasında konum seçebilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Çubuğu -> Seçmek İstediğiniz Konumun Adı -> Çıkan Konumlardan Hangisini Seçmek İstiyorsanız O Konumu Seçin.",
+                "Risk haritasında konum seçebilmek için SmartBreath uygulamasında Risk Haritası sayfasına girin ve üst kısımda bulunan arama çubuğuna seçmek istediğiniz konumun adını yazın."
+
+            ]
+        },
+
+        {
+            "tag": "yorumYap",
+            "patterns": [
+                "Herhangi bir konum hakkında nasıl yorum yapabilirim?",
+                "Konum ile ilgili nereden yorum yapabilirim?",
+                "Konum ile ilgili nerden yorum yapabilirim?",
+                "Konum hakkında nerden yorum yapabilirim?",
+                "Konum hakkında nereden yorum yapabilirim?",
+                "Konum ile ilgili yorum yapmak istiyorum.",
+                "Harita üzerinde bir mekan ile ilgili yorum yapmak istiyorum.",
+                "Harita üzerinde mekan ile ilgili fikir paylaşmak istiyorum.",
+                "Harita üzerinde konum ile ilgili fikir paylaşmak istiyorum.",
+                "Konum ile ilgili nasıl yorum yapabilirim?"
+
+            ],
+            "responses": [
+                "Risk haritası sayfasında konum arama kısmından yorum yapmak istediğiniz konumun adını girerek konumu seçiniz. Ardından alt kısımda çıkan konum hakkındaki bilgilerin görüntülendiği kısımdan değerlendirme yapabilmek için kaç yıldız verdiğinizi seçin. Ardından çıkan ekranda yapmak istediğiniz yorumu yazın ve değerlendirmek için de yıldız sayısını değiştirebilirsiniz. Yapılan bu işlemlerden sonra yorumunuzun yayınlanabilmesi için Breat'leyebilirsiniz.",
+                "Herhangi bir konum hakkında yorum yapabilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Bölümünden Konum Adı -> Yıldız İkonuna Dokunun -> Yorum Ekranında Yorumunuzu Yazın -> Breat'le.",
+                "Şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Bölümünden Konum Adı -> Yıldız İkonuna Dokunun -> Yorum Ekranında Yorumunuzu Yazın -> Breat'le."
+            ]
+        },
+
+        {
+            "tag": "yorumGor",
+            "patterns": [
+                "Herhangi bir konum hakkında yapılan yorumları nasıl görebilirim?",
+                "Konum ile ilgili yapılan yorumları nereden görebilirim?",
+                "Konum ile ilgili yorumlara nerden bakabilirim?",
+                "Konum hakkında yorumlara nerden bakabilirim?",
+                "Konum hakkında yorumları nereden görebilirim?",
+                "Konum ile ilgili yorumları görmek istiyorum.",
+                "Harita üzerinde bir mekan ile ilgili yorumları görmek istiyorum.",
+                "Harita üzerinde mekan ile ilgili yorumlara ulaşmak istiyorum.",
+                "Harita üzerinde konum ile ilgili paylaşılan fikirleri görmek istiyorum."
+
+            ],
+            "responses": [
+                "Risk haritası sayfasında konum arama kısmından yorumlarını görmek istediğiniz konumun adını girerek konumu seçiniz. Ardından alt kısımda çıkan konum hakkındaki bilgilerin görüntülendiği kısımda Yapılan Yorumları Gör kısmına girerek yapılan yorumları görüntüleyebilirsiniz.",
+                "Herhangi bir konum hakkında yapılan yorumları görebilmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Bölümünden Konum Adı -> Yapılan Yorumlaru Gör.",
+                "Şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Bölümünden Konum Adı -> Yapılan Yorumlaru Gör."
+            ]
+        },
+
+        {
+            "tag": "ekranFoto",
+            "patterns": [
+                "Haritanın ekran fotoğrafını nasıl paylaşabilirim?",
+                "Risk haritasında nasıl ekran fotoğrafı paylaşabilirim?",
+                "Risk haritasında ekranın fotoğrafını sosyal medyada nasıl paylaşabilirim?",
+                "Harita kısmından ekran görüntüsü paylaşımı nasıl yapabilirim?",
+                "Harita kısmından ekran görüntüsü paylaşımı nereden yapabilirim?",
+                "Harita kısmından ekran görüntüsü paylaşımı nerden yapabilirim?",
+                "Haritanın ekran fotoğrafını paylaşmak istiyorum",
+                "Risk haritasının ekran fotoğrafını paylaşmak istiyorum",
+                "Haritanın ekran fotoğrafını sosyal medyada veya arkadaşlarımla paylaşmak istiyorum."
+
+            ],
+            "responses": [
+                "Risk haritasının ekran fotoğrafını paylaşabilmek için risk haritası sayfasında ekranın sol alt kısmında bulunan butona dokunun. Ardından paylaşım butonuna dokunun. Ekran paylaşımı yapmak istediğiniz platformu seçiniz.",
+                "Haritanın ekran görüntüsünü paylaşmak için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Sol Alt Kısımda BulunanButon -> Paylaşım Butonu -> Paylaşmak İstediğiniz Platformu Seçiniz -> Paylaşın.",
+                "Şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Sol Alt Kısımda BulunanButon -> Paylaşım Butonu -> Paylaşmak İstediğiniz Platformu Seçiniz -> Paylaşın."
+            ]
+        },
+
+        {
+            "tag": "guzergahBelirle",
+            "patterns": [
+                "Gitmek istediğim konum ile ilgili yol güzergahını nasıl görebilirim?",
+                "İstediğim konum ile ilgili yol güzergahını görmek istiyorum",
+                "Risk haritasında konum ile ilgili yol güzergahını nasıl görebilirim?",
+                "Harita kısmında yol güzergahını görmek istiyorum?",
+                "Haritada ilgili konum ile ilgili güzergahı nasıl görebilirim?",
+                "Konum ile ilgili güzergahı görmek istiyorum."
+
+            ],
+            "responses": [
+                "Risk haritası sayfasında gitmek istediğiniz konumun üzerine 2-3 saniye basılı tutun veya arama kısmından gitmek istediğiniz konumu arayarak o konum ile ilgili yol güzergahını alabilirsiniz.",
+                "Haritada yol güzergahını görmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Gitmek İstediğiniz Konuma 2-3 Saniye Basılı Tutun -> Güzergahı Görüntüleyebilirsiniz.",
+                "Şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Gitmek İstediğiniz Konuma 2-3 Saniye Basılı Tutun -> Güzergahı Görüntüleyebilirsiniz.",
+                "Haritada yol güzergahını görmek için şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Kısmından Gitmek İstediğiniz Konumu Arayın -> Güzergahı Görüntüleyebilirsiniz.",
+                "Şu adımları takip ediniz: SmartBreath Uygulaması -> Risk Haritası -> Arama Kısmından Gitmek İstediğiniz Konumu Arayın -> Güzergahı Görüntüleyebilirsiniz."
+            ]
+        },
+
+        {
+            "tag": "nlpNedir",
+            "patterns": [
+                "NLP nedir?",
+                "Doğal dil işleme nedir?",
+                "Doğal dil işleme hakkında bilgi almak istiyorum.",
+                "Natural Language Processing nedir?"
+
+            ],
+            "responses": [
+                "Doğal Dil İşleme insanların kendi aralarında anlaşmak için kullandıkları dili insan-bilgisayar etkileşimini en üst düzeye çıkarabilmek veya farklı doğal dilleri kullanan insanlar arasında iletişimi güçlendirmek üzere çözümler üreten bilim alanıdır.",
+                "Doğal dil işleme, yapay zekanın bir alt kategorisidir.",
+                "Doğal Dil İşleme, yaygın olarak NLP (Natural Language Processing) olarak bilinen yapay zekâ ve dilbilim alt kategorisidir."
+            ]
+        },
+
+        {
+            "tag": "solunumRahatsızlık",
+            "patterns": [
+                "Solunum sistemi rahatsızlıkları nelerdir?",
+                "Solunum sistemi hastalıkları nelerdir?",
+                "Solunum sistemi hastalıkları",
+                "Solunum sistemi hastalıkları hakkında bilgi almak istiyorum."
+
+            ],
+            "responses": [
+                "Solunum sistemi ve bağlantılı organlarda gelişen ve ortaya çıkan hastalıklar solunum sistemi hastalıkları olarak adlandırılmaktadır.",
+                "Solunum sistemi hastalıklarına astım, KOAH (Kronik Obstrüktif Akciğer Hastalığı), kronik bronşit, mesleki akciğer hastalıkları örnek olarak verilebilir.",
+                "Solunum sistemi rahatsızlıkları, akciğer başta olmak üzere bağlantılı tüm organları etkileyen hastalıktır. Havada bulunan faktörler solunum sistemini olumsuz etkileyebilir. Bu faktörler, karbonmonoksit, sigara dumanı, karbondioksit, polen, partikül madde örnek olarak verilebilir."
+            ]
+        },
+        
+        {
+            "tag": "astım",
+            "patterns": [
+                "Astım nedir?",
+                "Astım hakkında bilgi almak istiyorum",
+                "Astım hastalığı nedir?"
+
+            ],
+            "responses": [
+                "Astım, bir solunum sistemi rahatsızlığı olup bireyleri olfukça kötü etkilemektedir. Sigara dumanı, amonyak, azot, karbonmonoksit gibi hava faktörleri astım hastalığını olumsuz etkilemektedir.",
+                "Astım, solunum yollarını tıkayan ve nefes almayı zorlaştıran kronik bir hastalıktır. Astımda, hava yolu etrafındaki düz kaslar, alerjenler, duman, soğuk hava veya egzersiz gibi tetikleyicilere yanıt olarak kasılır ve mukus adı verilen yapışkan salgının üretimi artar; bu durum hava yolunun daralmasına neden olur.",
+                "Astım hava yollarının duyarlılığının artmasına bağlı olarak gelişen kronik bir hastalıktır. Tekrarlayan öksürük ve hışıltı ile karakterizedir. Astımda hem büyük hem küçük hava yolları etkilenebilir."
+            ]
+        },
+
+        {
+            "tag": "koah",
+            "patterns": [
+                "KOAH nedir?",
+                "KOAH hakkında bilgi almak istiyorum",
+                "KOAH hastalığı nedir?",
+                "Kronik obstrüktif akciğer hastalığı nedir?",
+                "Kronik obstrüktif akciğer hastalığı hastalığı hakkında bilgi almak istiyorum"
+
+            ],
+            "responses": [
+                "Kronik obstrüktif akciğer hastalığı (KOAH) solunumla akciğerlere alınan havanın kolay bir şekilde dışarı verilememesi şeklinde açıklanabilecek bir akciğer hastalığıdır.",
+                "Kronik Obstrüktif Akciğer Hastalığı kelimelerinin baş harfleri ile adlandırılan Koah hastalığı, akciğerlerde bulunan ve bronş adı verilen hava keseciklerinin tıkanması sonucu; solunum güçlüğü, öksürük ve nefes darlığı gibi şikayetlere yol açan kronik bir hastalıktır.",
+                "Kronik Obstrüktif Akciğer Hastalığı (KOAH), zararlı partikül ve gazlara belirgin maruziyet sonucu hava yollarında ve alveollerde gelişen anomalilere bağlı solunumsal semptomlar ve hava akımı kısıtlanması ile meydana gelir. KOAH  sık görülen, önlenebilir ve tedavi edilebilir bir hastalıktır."
+            ]
+        }
+    ]
+}
